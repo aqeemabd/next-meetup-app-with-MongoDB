@@ -9,7 +9,7 @@ Create new cluster and make sure you choose the free tier option and keep everyt
 After you have created an account and created a new cluster, navigate to Network Access from the side navigation under security and add your IP Address. Once you have added your IP Address, navigate to Database Access and create a user that has access to read and write to any database.
 
 Before you run the development server, 
-Find the code that has const client = await MongoClient.connect(''). Then, go to your cluster and click on connect and click Connect your application and copy the code from the step 2 and paste in the MongoClient.connect('').
+Find the code that has ```const client = await MongoClient.connect('')```. Then, go to your cluster and click on connect and click Connect your application and copy the code from the step 2 and paste in the ```MongoClient.connect('')```.
 
 First, run the development server:
 
